@@ -11,13 +11,14 @@ function App() {
   
   <Header/>
   <div className='card-flex'>
-  <Cards/>
-  <Cards/>
-  <Cards/>
-  <Cards/>
-  <Cards/>
+  {Cards('project 1')}
+  {Cards('project 2')}
+  {Cards('project 3')}
+  {Cards('project 4')}
+ 
   </div>
   <Content/>
+  
   
   </>
 }
