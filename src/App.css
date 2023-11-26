@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+#basic-navbar-nav{
+  font-size: 30px;
+  
+}
+.me-auto{
+  font-size: 20px;
+}
+.card-flex{
+  display: flex;
+  
 }
