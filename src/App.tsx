@@ -4,6 +4,8 @@ import './App.css';
 import Header from './Header';
 import Cards from './Cards';
 import Content from './Content';
+import Footer from './Footer';
+
 
 
 function App() {
@@ -15,11 +17,11 @@ function App() {
   {Cards('project 2')}
   {Cards('project 3')}
   {Cards('project 4')}
- 
+
   </div>
+  <Footer/>
   <Content/>
-  
-  
+ 
   </>
 }
 
